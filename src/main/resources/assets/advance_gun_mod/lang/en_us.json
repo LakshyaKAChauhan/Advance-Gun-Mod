@@ -1,0 +1,17 @@
+{
+  "item.advance_gun_mod.ak_47_holder_oak": "Oak Holder For AK-47",
+  "item.advance_gun_mod.ak_47_holder_dark_oak": "Dark Oak Holder For AK-47",
+  "item.advance_gun_mod.ak_47_holder_spurce": "Spurce Holder For AK-47",
+  "item.advance_gun_mod.ak_47_holder_birch": "Birch Holder For AK-47",
+  "item.advance_gun_mod.ak_47_holder_none": "AK-47",
+
+  "tooltip.advance_gun_mod.press.g": "Press G To Open Attachment GUI",
+
+  "itemGroup.guns": "Guns",
+  "itemGroup.blocks": "Blocks",
+  
+  "key.category.advance_gun_mod": "Gun Controls",
+  
+  "key.advance_gun_mod.reload": "Reload"
+
+}
