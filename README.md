@@ -1,5 +1,5 @@
 # Advance Gun Mod
-![hi](http://download1346.mediafire.com/n2pifxxuzapg/gvrekimeh9mpay2/logo.png)  
+![hi](/logo.png)  
 #This Is Advance Gun Mod.  
 It is a Minecraft Mod that adds almost all guns from real life.  
 Tables Of Guns Currently In the latest version:
