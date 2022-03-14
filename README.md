@@ -7,8 +7,8 @@ Tables Of Guns Currently In the latest version:
 |:---:|:------:|:-----:|:--------:|
 |  1. |Ak-47   |No     |Yes       |
   
-##This Was The Data Of Guns In Latest Versions.  
-###This Mod Is In Devlopment.  
+## This Was The Data Of Guns In Latest Versions.  
+### This Mod Is In Devlopment.  
 My Plan Is:  
 1. After one Month i.e. 1st Aprail 2022, 10 More Guns will be added.
 2. After That Another Update will "1.2" That Update Will called Firing Update, Which Have Working Guns.
