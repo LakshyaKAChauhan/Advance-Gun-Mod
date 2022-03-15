@@ -10,7 +10,7 @@ Guns Currently In the latest version:
 ## This Was The Data Of Guns In Latest Versions.  
 ### This Mod Is In Devlopment.  
 My Plan Is:  
-1. After one Month i.e. 1st Aprail 2022, 10 More Guns will be added.
+1. After one Month i.e. 1st April 2022, 10 More Guns will be added.
 2. After That Another Update will "1.2" That Update Will called Firing Update, Which Have Working Guns.
   
 This Mod Is Devloped By Lakshya Chauhan.  
