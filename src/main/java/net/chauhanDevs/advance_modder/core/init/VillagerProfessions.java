@@ -1,10 +1,10 @@
-/*package net.chauhanDevs.advance_gun_mod.core.init;
+package net.chauhanDevs.advance_modder.core.init;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableSet;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
-import net.chauhanDevs.advance_gun_mod.advance_gun_mod;
+import net.chauhanDevs.advance_modder.advance_gun_mod;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.merchant.villager.VillagerProfession;
 import net.minecraft.entity.merchant.villager.VillagerTrades;
@@ -20,7 +20,7 @@ import javax.annotation.Nullable;
 import java.util.List;
 import java.util.Random;
 
-public class VillagerProfessions {
+public class VillagerProfessions {/*
     public static final DeferredRegister<VillagerProfession> V_PROFESSION = DeferredRegister.create(ForgeRegistries.PROFESSIONS,
             advance_gun_mod.ID);
 
@@ -66,5 +66,5 @@ public class VillagerProfessions {
             return null;
         }
     }
-
-}*/
+*/
+}
