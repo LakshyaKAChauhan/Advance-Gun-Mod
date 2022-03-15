@@ -3,6 +3,7 @@ package net.chauhanDevs.advance_modder.core.init;
 import net.chauhanDevs.advance_modder.advance_gun_mod;
 import net.chauhanDevs.advance_modder.common.items.guns.AK_47;
 import net.chauhanDevs.advance_modder.common.items.guns.TestChauhan;
+import net.chauhanDevs.advance_modder.common.items.guns.gunItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -25,7 +26,7 @@ public class items {
 
     //Guns Register
     public static final RegistryObject<AK_47> ak_47_holder_none = ITEMS.register("ak_47_holder_none",
-            () -> new AK_47(new AK_47.Properties().tab(Tabs.GUNS)));
+            () -> new AK_47(new AK_47.Properties().tab(Tabs.GUNS).stacksTo(1)));
 
 
     //Blocks Register

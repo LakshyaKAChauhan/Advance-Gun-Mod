@@ -7,26 +7,7 @@ import net.minecraft.util.*;
 import net.minecraft.world.World;
 
 public class AK_47 extends gunItem {
-
-	public static int magazineSize = 30;
-	public AK_47(Properties properties) {
-		super(properties);
+	public AK_47(Properties p_i48487_1_) {
+		super(p_i48487_1_);
 	}
-
-	@Override
-	public ActionResult<ItemStack> use(World world, PlayerEntity playerIn, Hand handIn) {
-		setNbtDataBullets(playerIn, handIn);
-		if(!playerIn.getCooldowns().isOnCooldown(this)) {
-			gunFiringSys.gunFiringSys(world, playerIn);
-			playerIn.getCooldowns().addCooldown(this, 1);
-		}
-		return super.use(world, playerIn, handIn);
-	}
-
-	//functions access able from other files
-	public static void reload(){
-	}
-
-
-
 }
