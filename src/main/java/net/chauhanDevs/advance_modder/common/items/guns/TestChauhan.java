@@ -22,26 +22,20 @@ public class TestChauhan extends Item
     {
         ItemStack stack = playerIn.getItemInHand(handIn);
         CompoundNBT nbt;
-        if (stack.hasTag())
-        {
+        if (stack.hasTag()) {
             nbt = stack.getTag();
-        }
-        else
-        {
+        } else {
             nbt = new CompoundNBT();
         }
+        if(!playerIn.isCrouching()){
 
-        assert nbt != null;
-        if (nbt.hasUUID("Uses"))
-        {
+            assert nbt != null;
             nbt.putInt("Uses", nbt.getInt("Uses") + 1);
+            stack.setTag(nbt);
+        }else{
+            assert nbt != null;
+            playerIn.displayClientMessage(new StringTextComponent("" + nbt.getInt("Uses")), true);
         }
-        else
-        {
-            nbt.putInt("Uses", 1);
-        }
-        stack.setTag(nbt);
-
         return super.use(world, playerIn, handIn);
     }
 

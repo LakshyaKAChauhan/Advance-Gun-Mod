@@ -25,7 +25,7 @@ public class advance_gun_mod
         bus.addListener(this::setup);
         blocks.BLOCKS.register(bus);
         items.ITEMS.register(bus);
-        VillagerProfessionBlock.V_PROFESSION_B.register(bus);
+        //VillagerProfessionBlock.V_PROFESSION_B.register(bus);
         //VillagerProfessions.V_PROFESSION.register(bus);
 
         // Register ourselves for server and other game events we are interested in

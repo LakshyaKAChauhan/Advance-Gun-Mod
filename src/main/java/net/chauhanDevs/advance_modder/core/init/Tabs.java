@@ -11,7 +11,7 @@ public abstract class Tabs extends ItemGroup {
         @OnlyIn(Dist.CLIENT)
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(items.ak_47_holder_none.get());
+            return new ItemStack(items.ak_47_holder_birch.get());
         }
     };
     public static final Tabs BLOCKS = new Tabs(ItemGroup.TABS.length, "blocks"){

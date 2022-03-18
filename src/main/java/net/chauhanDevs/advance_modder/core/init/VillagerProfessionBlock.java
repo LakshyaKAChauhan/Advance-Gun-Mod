@@ -10,7 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import java.lang.reflect.InvocationTargetException;
 
 public class VillagerProfessionBlock {
-   public static final DeferredRegister<PointOfInterestType> V_PROFESSION_B = DeferredRegister.create(ForgeRegistries.POI_TYPES,
+   /*public static final DeferredRegister<PointOfInterestType> V_PROFESSION_B = DeferredRegister.create(ForgeRegistries.POI_TYPES,
             advance_gun_mod.ID);
 
     public static final RegistryObject<PointOfInterestType> GUN_WORKER_POI = V_PROFESSION_B.register("gun_worker_poi",
@@ -25,5 +25,5 @@ public class VillagerProfessionBlock {
         }catch (IllegalAccessException | InvocationTargetException e){
             e.printStackTrace();
         }
-    }
+    }*/
 }
