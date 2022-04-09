@@ -1,12 +1,5 @@
 package net.chauhanDevs.advance_modder.customs;
 
-import net.chauhanDevs.advance_modder.common.items.guns.gunItem;
-import net.minecraft.client.Minecraft;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.CompoundNBT;
-import net.minecraft.util.Hand;
-
 public class reload {
 
 	public static void reloadMain(){
